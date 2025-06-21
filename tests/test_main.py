@@ -12,3 +12,4 @@ def test_add_task():
     data = response.get_json()
     assert response.status_code == 201
     assert data['title'] == "Estudiar CI"
+    
